@@ -10,24 +10,22 @@
   <body>
       <!-- шапка -->
     <header class="haed-hero">
-        <div class="container">
-        <nav>
-          <span><a class="link-active" href="Web">Web</a></span><span><a class="link-active-studio" href="Studio">Studio</a></span>
-          <a href="portfolio.html">Страница 2</a>
+        <div class="container main-div">
+        <nav class="nav-header">
+          <a href="./portfolio.html" class="logo">
+            <img src="./images/logo.svg" alt="логотип" /></a>
 
-         <ul class="site-nav list">
-             <li><a class="link-active-styles" href="Студия">Студия</a></li>
-             <li><a class="link" href="">Портфолио</a></li>   
-             <li><a class="link" href="">Контакты</a></li>   
+         <ul class="site-nav">
+             <li class="iteam-header"><a class="link-active-styles" href="Студия">Студия</a></li>
+             <li class="iteam-header"><a class="link" href="">Портфолио</a></li>   
+             <li class="iteam-header"><a class="link" href="">Контакты</a></li>   
          </ul>
         </nav>
-        </div>
-        <div class="container">
-         <ul class="auth-nav list">
+         <ul class="auth-nav">
 
              
-             <li><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+             <li class="iteam-header"><a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+             <li class="iteam-header"><a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         
 
          </ul>
@@ -36,71 +34,89 @@
     </header>
     
     <main>
+        
         <!--контент -->
         <section class="section-service">
+            <div class="container">
             
             <div><h1>Эффективные решения для вашего бизнеса</h1></div>
            <div><a class="link-active-service" href="Заказать-услугу">Заказать услугу</a></div>
         
-              
+        </div>
+
          </section>
             <!--контент 2 -->
         <section>
             <div class="container">
-                <div>
-            <ul>
-                <li><h3 class="link">Внимание к деталям</h3>
+               
+            <ul class="feature-list">
+                <li class="iteam"><h3 class="link">Внимание к деталям</h3>
                 <p class="link-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li><h3 class="link">Пунктуальность</h3>
+                <li class="iteam"><h3 class="link">Пунктуальность</h3>
                 <p class="link-title">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li><h3 class="link">Планирование</h3>
+                <li class="iteam"><h3 class="link">Планирование</h3>
                 <p class="link-title">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li> 
-                <li><h3 class="link">Современные технологии</h3>
+                <li class="iteam"><h3 class="link">Современные технологии</h3>
                 <p class="link-title">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p> 
                  </li>
                 </ul>
-                </div>
+             
             </div>
         </section>
          <!--контент 3 -->
         <section>
             <div class="container">
-            <h2>Чем мы занимаемся</h2>
-               <ul>
-                    <li class="iteam"><img src="./images/IT.jpg" width="370" alt="картинка на тему IT"/></li>  
+            <div><h2>Чем мы занимаемся</h2></div>
+               <ul class="engaged-section">
+                    <div class="iteam-section">
+                    <li class="iteam"><img src="./images/IT.jpg" width="370" alt="картинка на тему IT"/></li>
+                    </div> 
+                    <div class="iteam-section">
                     <li class="iteam"><img src="./images/IT2.jpg" width="370" alt="картинка на тему IT"/></li>
+                </div>
+                <div class="iteam-section">
                     <li class="iteam"><img src="./images/IT3.jpg" width="370" alt="картинка на тему IT"/></li>
+                </div>
+                    
                 </ul>    
             </div>
         </section>
         <!--контент 4 -->
         <section class="section-contentc">
             <div class="container">
-            <h2>Наша команда</h2>
-            <ul>
+            <div><h2>Наша команда</h2></div>
+            <ul class="team-section">
                 <li>
+                    <div class="img-team">
                     <img src="./images/human2.jpg" width="270" alt="Photo"/>
                 
                          <h3 class="link-title-developer">Ольга Репина</h3>
-                         <p class="link-title">Frontend Developer</p>
+                         <p class="link-title-fron">Frontend Developer</p>
+                        </div>
                 </li>        
                 <li>
+                    <div class="img-team">
                     <img src="./images/human3.jpg" width="270" alt="Photo"/>
                         <h3 class="link-title-marketing">Николай Тарасов</h3>   
-                        <p class="link-title">Marketing</p>   
+                        <p class="link-title-mark">Marketing</p> 
+                        </div>  
                 </li>        
                 <li>
+                    <div class="img-team">
                     <img src="./images/human.jpg" width="270" alt="Photo"/>
                         <h3 class="link-title-product">Игорь Демьяненко</h3>       
-                        <p class="link-title">Product Designer</p>
+                        <p class="link-title-des">Product Designer</p>
+                        </div>
                 </li>       
                 <li>
+                    <div class="img-team">
                     <img src="./images/human4.jpg" width="270" alt="Photo"/>
                         <h3 class="link-title-desinger">Михаил Ермаков</h3>  
-                        <p class="link-title">UI Designerr</p>      
+                        <p class="link-title-ui">UI Designer</p>
+                        </div>      
                  </li>
 
             </ul>
@@ -112,12 +128,15 @@
           <!-- конец -->
         <footer class="footer-contentc">
             <div class="container">
-            <span><a class="link-active" href="Web">Web</a></span><span><a class="link-active-studio" href="Studio">Studio</a></span>
+                <div class="addres">
+                <a href="./portfolio.html">
+                    <img src="./images/logo.svg" alt="логотип" /></a>
                  <address>
-                 г. Киев, пр-т Леси Украинки, 26
+                 <span class="siti">г. Киев, пр-т Леси Украинки, 26</span>
                  <a class="link-mail" href="mailto:info@example.com">info@example.com</a>
-                 <a href="tel:+38-099-111-11-11">+38 099 111 11 11</a>
+                 <a  class="link-tel" href="tel:+38-099-111-11-11">+38 099 111 11 11</a>
                  </address>
+                 </div>
                 </div>
         </footer>
 
