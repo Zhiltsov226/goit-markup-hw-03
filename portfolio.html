@@ -13,10 +13,13 @@
 </head>
 <body>
     <!--шапка-2-->
-    <header>
+    <header class="head-hero">
         <div class="container  main-div">
         <nav class="nav-header">
-            <span class="logo">Web</span><span class="logotip">Studio</span>
+          <div class="div-head">  
+             <span class="logo">Web</span><span class="logotip">Studio</span>
+            </div>
+         
             <ul class="site-nav">
                     <li class="iteam-header"><a class="link-active-styles" href="./index.html">Студия</a></li>
                     <li class="iteam-header"><a class="link-active-styles current" href="">Портфолио</a></li>
@@ -52,8 +55,10 @@
                     <li class="flex-element">
                         <div>
                      <a href="./images/technocryk.jpg"><img src="./images/technocryk.jpg" width="370" alt="технокряк"/></a>
-                                    <h3>Технокряк</h3>
+                              <div class="title-portgolio">
+                                    <h3 class="h-portofolio">Технокряк</h3>
                                 <p class="link-title">Веб-сайт</p>
+                              </div>
                     </div>           
                   </li>
                  
@@ -62,8 +67,10 @@
                   <li class="flex-element">
                     <div>
                       <a href="./images/sport.jpg"><img src="./images/sport.jpg" width="370" alt="спорт"/></a>
-                            <h3>Постер New Orlean vs Golden Star</h3>
+                      <div class="title-portgolio">
+                            <h3 class="h-portofolio">Постер New Orlean vs Golden Star</h3>
                                <p class="link-title">Дизайн</p>
+                              </div>
                     </div>
                   </li> 
                     
@@ -71,8 +78,10 @@
                   <li class="flex-element">
                     <div>          
                       <a href="./images/fish.jpg"><img src="./images/fish.jpg" width="370" alt="рыба"/></a>
-                             <h3>Ресторан Seafood</h3>
+                      <div class="title-portgolio">
+                             <h3 class="h-portofolio">Ресторан Seafood</h3>
                              <p class="link-title">Приложение</p>
+                            </div>
                     </div>        
                    </li>
                    
@@ -80,15 +89,19 @@
                     <li class="flex-element">  
                         <div>
                         <a href="./images/headphones.jpg"><img src="./images/headphones.jpg" width="370" alt="наушники"/></a>
-                                 <h3>headphones</h3>
+                        <div class="title-portgolio">
+                                 <h3 class="h-portofolio">headphones</h3>
                                <p class="link-title">Маркетинг</p>
+                              </div>
                         </div>       
                     </li> 
                     <li class="flex-element"> 
                         <div>    
                       <a href="./images/box.jpg"><img src="./images/box.jpg" width="370" alt="коробка"/></a> 
-                              <h3>Маркетинг</h3>  
+                      <div class="title-portgolio">
+                              <h3 class="h-portofolio">Маркетинг</h3>  
                               <p class="link-title">Приложение</p>
+                            </div>
                               </div>  
                     </li>
                     
@@ -96,34 +109,40 @@
                     <li class="flex-element">  
                         <div>        
                        <a href="./images/monitor.jpg"><img src="./images/monitor.jpg"   width="370" alt="монитор"/></a>
-                                <h3>monitor</h3>  
+                       <div class="title-portgolio">
+                                <h3 class="h-portofolio">monitor</h3>  
                               <p class="link-title">Веб-сайт</p>
                               </div>
+                          </div>
                     </li>
                   
                      
                     <li class="flex-element"> 
-                        <div>                                
-                      <img src="./images/books.jpg"  width="370" alt="книги"/> 
-                               <h3>Издание Limited Edition</h3>
+                                                       
+                     <a href="./images/books.jpg"><img src="./images/books.jpg"  width="370" alt="книги"/> </a>
+                      <div class="title-portgolio">
+                               <h3 class="h-portofolio">Издание Limited Edition</h3>
                                <p class="link-title">Дизайн</p>
-                         </div>
+                               </div>
+                         
                      </li> 
                     
-                     <li
-                     class="flex-element">
-                        <div>
+                     <li class="flex-element">
+                        
                          <a href="./images/trinket.jpg"><img src="./images/trinket.jpg" width="370" alt="брелок"/></a>
-                                    <h3>Проект LAB</h3> 
+                         <div class="title-portgolio">
+                                    <h3 class="h-portofolio">Проект LAB</h3> 
                                       <p class="link-title">Маркетинг</p>
-                         </div>
+                                      </div>
+                         
                      </li>
                     
                     
                      <li class="flex-element">
-                        <div>
+                        
                          <a href="./images/nootbook.jpg"><img src="./images/nootbook.jpg" width="370" alt="ноутбук"/></a>
-                                    <h3>Growing Business</h3>
+                         <div class="title-portgolio">
+                                    <h3 class="h-portofolio">Growing Business</h3>
                                     <p class="link-title">Приложение</p>
                         </div>
                      </li> 
@@ -138,15 +157,18 @@
      <!--конец-->
      <footer class="footer-contentc">
         <div class="container">
-          <a href="./" lang="en" class="logo">Web<span class="logo-white">Studio</span>
+          <div class="fot-div">
+            <a href="./" lang="en" class="logo">Web<span class="logo-white">Studio</span>
+          </div>
+
             <address>
        
           <ul class="adress-ul">
-            <li class="siti"> г. Киев, пр-т Леси Украинки, 26</li>
-             <li>
+            <li> <span class="siti">г. Киев, пр-т Леси Украинки, 26</span></li></li>
+             <li class="way">
                <a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a> 
             </li>
-             <li>
+             <li class="way">
                <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
          </ul>
