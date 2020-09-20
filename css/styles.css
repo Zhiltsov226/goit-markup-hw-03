@@ -220,21 +220,8 @@
       .link-active-styles:hover {
           color: var(--active);
       }
-      .link-active:hover{
-          color: var(--active);
-      }
-      .link-active {
-          text-decoration: none;
-         
-          font-style: normal;
-          font-weight: 700;
-          font-size: 26px;
-          line-height: 31px;
-          color: var(--active);
-      }
-      .link-active:focus {
-          text-decoration: none;
-      }
+
+    
       .link-active-studio {
          text-decoration: none;
         
@@ -294,7 +281,7 @@
           min-width: 73px;
  
     
-          
+          font-family: Roboto,sans-serif;
           font-weight: 500;
           font-size: 16px;
           line-height: 1.6;
@@ -317,7 +304,7 @@
           padding: 6px 22px;
           border: 1px solid transparent;
  
-        
+          font-family: Roboto,s;
           font-weight: 500;
           font-size: 16px;
           line-height: 1.6;
@@ -403,14 +390,14 @@
      .link-title-desinger {
         
       padding-top: 30px;
+     
       text-align: center;
- 
+      
        
          
-       
+      line-height: 19px;
          font-size: 16px;
-         line-height: 1.18x;
-        
+       
          letter-spacing: 0.03em;
          color: var(--black);
      }
@@ -531,6 +518,13 @@
        padding-top: 60px;
     }
   .way {
+      
       margin-top: 9px;
       margin-bottom: 9px;
+   }
+   .way .link-mail {
+       font-style: normal;
+   }
+   .way .link-tel {
+       font-style: normal;
    }
