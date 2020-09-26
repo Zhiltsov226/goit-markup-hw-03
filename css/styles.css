@@ -10,10 +10,22 @@ html {
     --font-family: Roboto,serif;
     --secondary-bg-color:  #2F303A;
     --mainer-bg-color: #E5E5E5;
+    --fot-nv-color: rgba(255, 255, 255, 0.6);
  }
- .link {
+ .site-nav {
      margin: 0;
  }
+ .auth-nav {
+     margin: 0;
+ }
+ .feature-list {
+     margin: 0;
+ }
+ .engaged-section {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+ 
  .link-title {
     margin: 0;
 }
@@ -57,7 +69,7 @@ html {
          color: var(--active);
      }
      .logotip {
-        display: inline-flex;
+        display: inline-block;
       
 
          text-decoration: none;
@@ -67,11 +79,13 @@ html {
          font-size: 26px;
          line-height: 1.19;
          color: var(--black);
+         margin-right: 94px;
      }
       
       .main-div { 
           display: flex;
           align-items: center;
+          justify-content: space-between;
           height: 80px;
       }
       
@@ -86,24 +100,42 @@ html {
          list-style-type: none;
           margin-right: 8px;
       }
+      nav {
+          display: flex;
+          justify-content: start;
+      }
       .site-nav { 
          list-style-type: none;
-          margin-left: 93px;
-         display: inline-flex;
-         padding-top: 32px;
-         padding-bottom: 32px;
+       
+          display: flex;
+         
+        
       }
-      .site-nav .iteam-header:not(:last-child) {
+      .site-nav .iteam-header {
+          padding: 32px 0;
+          margin-right: 50px;
+          display: block;
+
+      }
+      .site-nav .iteam-header:last-child {
          list-style-type: none;
-         margin-right: 50px;
+         margin-right: 0;
+       
+       
       }
       .auth-nav {
          list-style-type: none;
          display: flex;
-         margin-left: auto;
-      }
+        
+      }  
       .auth-nav .iteam-header+ .iteam-header {
-         margin-left: 50px;
+        padding-left: 50px;
+        display: block;
+      }
+      .auth-nav .iteam-header+ .iteam-header:last-child {
+        list-style-type: none;
+        margin-right: 0;  
+          
       }
       .images-conteiner {
          
@@ -171,8 +203,8 @@ html {
  
       .link {
          display: block; 
-          padding-top: 32px;
-          padding-bottom: 11px;
+         margin-top: 32px;
+         margin-bottom: 11px;
          
         font-family: Roboto,sans-serif;
          font-style: 400;
@@ -336,7 +368,7 @@ html {
        }
       .link-title {
          
-         padding-bottom: 20px; 
+        margin-bottom: 20px; 
          font-family: Roboto,sans-serif;
          font-weight: 400;
          font-size: 14px;
@@ -347,8 +379,8 @@ html {
       h2 { 
           
           text-align: center;
-          margin-top: 94px;
-          margin-bottom: 40px;
+          
+          margin-bottom: 50px;
  
        
          font-weight: 700;
@@ -363,14 +395,11 @@ html {
          display: flex;
         
       }
-      .iteam-section {
-          margin-right: 30px;
-         width: calc((100%-30px*2) / 3);
-         
-         
- 
+      .iteam {
+        margin-right: 30px;
+        width: calc((100%-30px*2) / 3);
       }
-      .iteam-section:nth-child(4n) {
+      .iteam:last-child {
          margin-right: 0;
      }
      .team-section {
@@ -392,15 +421,14 @@ html {
          border-radius: 0px 0px 4px 4px;
      }
      
-     .iteam-section .img-team:not(:last-child) {
+     .img-team:not(:last-child) {
          margin-right: 0;
      }
  
-      .iteam {
-          padding-top: 50px;
-          padding-bottom: 94px;
-         
-      }
+     .section-img {
+         padding-top: 94px;
+         padding-bottom: 94px;
+     }
      .link-title-desinger {
         
       padding-top: 30px;
@@ -551,7 +579,17 @@ html {
    }
    .way .link-mail {
        font-style: normal;
+       color: var(--fot-nv-color);
+   }
+   .way .link-mail:hover,
+   .way .link-mail:focus {
+       color: var(--active);
    }
    .way .link-tel {
        font-style: normal;
+       color: var(--fot-nv-color);
+   }
+   .way .link-tel:hover,
+   .way .link-tel:focus {
+       color: var(--active);
    }
