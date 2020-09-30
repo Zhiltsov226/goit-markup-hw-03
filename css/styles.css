@@ -11,7 +11,17 @@ html {
     --secondary-bg-color:  #2F303A;
     --mainer-bg-color: #E5E5E5;
     --fot-nv-color: rgba(255, 255, 255, 0.6);
+    --color-section: #F5F4FA;
  }
+  p {
+      margin: 0;
+  }
+ h3 {
+     margin: 0;
+ }
+ .link {
+    margin: 0;
+}
  h2 {
      margin: 0;
  }
@@ -202,7 +212,7 @@ html {
       }
   
        .section-title {
-           padding-top: 32px;
+           padding-top: 94px;
        }
  
       .link {
@@ -354,7 +364,7 @@ html {
           padding: 6px 22px;
           border: 1px solid transparent;
  
-          font-family: Roboto,s;
+          font-family: Roboto,sans-serif;
           font-weight: 500;
           font-size: 16px;
           line-height: 1.6;
@@ -372,7 +382,7 @@ html {
        }
       .link-title {
          
-        margin-bottom: 20px; 
+       
          font-family: Roboto,sans-serif;
          font-weight: 400;
          font-size: 14px;
@@ -413,29 +423,35 @@ html {
          
      }
      .img-team {
-         width: calc((100%-60) / 4);
-         
-     }
-     .img-team-iteam {
-        background: var(--white-2);
- 
-         width: 270px;
-         height: 428px;
+         margin-right: 30px;
+         width: calc((100% - 30px * 3) / 4);
+
+         background: var(--white-2);
          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
          border-radius: 0px 0px 4px 4px;
+
+         
+     }
+      
+     img {
+        display: block;
+     }
+     .img-block {
+         padding-top: 30px;
+         padding-bottom: 59px;
      }
      
-     .img-team:not(:last-child) {
+     .img-team:last-child {
          margin-right: 0;
      }
- 
+    
      .section-img {
          padding-top: 94px;
          padding-bottom: 94px;
      }
      .link-title-desinger {
         
-      padding-top: 30px;
+     
      
       text-align: center;
       
@@ -448,7 +464,7 @@ html {
          color: var(--black);
      }
      .link-title-product {
-        padding-top: 30px;
+       
         text-align: center;
       
  
@@ -461,7 +477,7 @@ html {
      }
      .link-title-marketing {
         
-        padding-top: 30px;
+        
       text-align: center;
      
       
@@ -473,12 +489,7 @@ html {
          color: var(--black);
      }
      .link-title-developer {
-        
-         padding-top: 30px;
-        
          
-         
-        
          text-align: center;
          font-weight: 700;
          font-size: 16px;
@@ -489,7 +500,6 @@ html {
      }
     h3 { 
     
-     
      font-weight: 700;;
      font-size: 18px;
      line-height: 2;
@@ -497,39 +507,53 @@ html {
      color: var(--black);
     }
     .link-title-mark {
-        margin-left: 97px;
-        margin-right: 97px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        text-align: center;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.1;
         color: var(--gray);
- 
     }
      .link-title-fron {
-        margin-left: 62px;
-        margin-right: 61px;
-        margin-bottom: 30px;
-      
+        margin-top: 10px;
+        text-align: center;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.1;
         color: var(--gray);
     }
     .link-title-des {
-     margin-left: 70px;
-     margin-right: 70px;
-     margin-bottom: 30px;
-    
-    color: var(--gray);
+       margin-top: 10px;
+        
+        text-align: center;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.1;
+        color: var(--gray);
     }
      .link-title-ui {
-       margin-bottom: 30px;
-      text-align: center;
-    
-   
-     color: var(--gray);
+        margin-top: 10px;
+      
+        text-align: center;
+        font-family: Roboto,sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.1;
+        color: var(--gray);
  
     }
  
     .section-contentc { 
         padding-top: 94px;
         padding-bottom: 94px;
-        background-color:  #F5F4FA;
+        background-color: var(--color-section);
     }
     .footer-contentc {
         height: 252px;
