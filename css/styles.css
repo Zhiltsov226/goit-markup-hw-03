@@ -13,6 +13,16 @@ html {
     --fot-nv-color: rgba(255, 255, 255, 0.6);
     --color-section: #F5F4FA;
  }
+ .way {
+     margin: 0;
+ }
+ 
+ .team-section {
+     margin: 0;
+ }
+ .adress-ul {
+     margin: 0;
+ }
   p {
       margin: 0;
   }
@@ -171,6 +181,8 @@ html {
       }
       .title-portgolio {
           padding-left: 24px;
+          padding-bottom: 30px;
+          padding-top: 30px;
       }
      .h-portfolio {
         width: 322px;
@@ -438,7 +450,9 @@ html {
      }
      .img-block {
          padding-top: 30px;
-         padding-bottom: 59px;
+         padding-bottom: 30px;
+         padding-left: 10px;
+         padding-right: 10px;
      }
      
      .img-team:last-child {
@@ -556,16 +570,16 @@ html {
         background-color: var(--color-section);
     }
     .footer-contentc {
+        padding-top: 60px;
         height: 252px;
         background-color: var(--secondary-bg-color)
     }
-    .fot-div {
-        padding-top: 60px;
-    }
+   
     .logo-white {
      color: var(--white-2);
  }
  .adress-ul {
+     margin-top: 20px;
      list-style: none;
     
  }
@@ -586,8 +600,7 @@ html {
    
     .logo {
 
-        padding-top: 24px;
-        padding-bottom: 24px;
+        
        text-decoration: none;
        font-family: Raleway,sans-serif;
       
